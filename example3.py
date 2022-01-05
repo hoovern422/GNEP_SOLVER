@@ -1,12 +1,12 @@
 import numpy as np
 import timeit
-from critic_class import Critic
-from agent_class import Agent
-from training_environment import TrainingEnv
-from playing_environment import PlayingEnv
-from training_algorithm import train
-from playing_algorithm import play
-from plotters import plot_heatmap, plot_learning_curve, plot_nash_eq
+from entities/critic_class import Critic
+from entities/agent_class import Agent
+from environments/training_environment import TrainingEnv
+from environments/playing_environment import PlayingEnv
+from algorithms/training_algorithm import train
+from algorithms/playing_algorithm import play
+from plotters/plotters import plot_heatmap, plot_learning_curve, plot_nash_eq
 
 ##############################################################################
 
