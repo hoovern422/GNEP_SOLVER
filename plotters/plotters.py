@@ -7,7 +7,7 @@ from scipy.stats import gaussian_kde
 def plot_learning_curve(episode_tracker, scores):
 
     """
-    Plots a learning curve.
+    Plots a learning curve. 
     """
 
     running_avg = np.zeros(len(scores))
