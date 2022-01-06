@@ -18,7 +18,7 @@ if __name__ == '__main__':
     """
     tic = timeit.default_timer()
 
-    training_flag = False
+    training_flag = True
     playing_flag = True
 
     # Define GNEP-specific function parameters.

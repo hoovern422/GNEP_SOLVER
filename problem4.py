@@ -26,7 +26,7 @@ if __name__ == '__main__':
     y_bounds = np.array([0, 10])
     action_space = [-0.5, 0.5]
     action_scaling_factor = 0.5
-    reward_scaling_factor = 1 / 15
+    reward_scaling_factor = 1 / 10
     training_threshold = 0.1
     playing_threshold = 0.01
     max_train_games = 200
